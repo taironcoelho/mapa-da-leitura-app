@@ -1,29 +1,23 @@
 {
   "expo": {
-    "name": "Tab Navigation Template",
+    "name": "Mapa da Leitura",
     "slug": "MapaDaLeitura",
     "privacy": "public",
     "sdkVersion": "36.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/logo_final.png",
     "scheme": "myapp",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/logo_transp.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffea03"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     }
