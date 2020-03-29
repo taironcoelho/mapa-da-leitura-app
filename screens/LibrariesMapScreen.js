@@ -23,9 +23,13 @@ export default function LibrariesMapScreen({ navigation }) {
     }
   ]);
 
+  //TODO: Fetch all libraries for the map on load page
+  // React.useEffect(() => {
+  // }, []);
+
   return (
     <View style={styles.container}>
-      <LibrariesMaps libraries={libraries} />
+      <LibrariesMaps navigation={navigation} libraries={libraries} />
     </View>
   );
 }

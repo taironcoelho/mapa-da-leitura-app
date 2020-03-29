@@ -26,7 +26,9 @@ const LibrariesMaps = props => {
   };
 
   function onMarkerSelect(libraryId) {
-    console.log(libraryId);
+    props.navigation.navigate("LibraryDetailScreen", {
+      libraryId: libraryId
+    });
   }
 
   return (
